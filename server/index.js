@@ -16,7 +16,7 @@ app.use(cors());
 
 
 app.use('/posts',postRoutes);
-const CONNECTION_URL='mongodb+srv://social:network@cluster0.jgrkfkv.mongodb.net/?retryWrites=true&w=majority';
+const CONNECTION_URL='mongodb+srv://social:<PASSWORD>@cluster0.jgrkfkv.mongodb.net/?retryWrites=true&w=majority';
 
 const PORT=process.env.PORT || 5000;
 
